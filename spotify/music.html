@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online spotify</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://developer.spotify.com/images/guidelines/design/icon3@2x.png" 
+    type="image/x-icon">
+    <script src="logic.js" type="module"></script>
+    
+</head>
+<body>
+   <header>
+    <div class="class flex justify-space-between align-item-center">
+    <div class="left-side flex justify-space-between align-item-center">
+        <div class="logo flex .justify-space-between .align-item-center ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Jh6oHK_PEs0lbxXc6IHrufjOplS_63uT8A&s"
+             alt="">
+         </div>
+    </div>
+    <div class="right-side flex justify-space-between align-item-center">
+        <div class="search-bar flex justify-space-between align-item-center">
+            <div class="search-icon ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" 
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
+                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11"
+                 cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            </div>
+            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Search Songs"> 
+        </div>
+        <div class="manage-Subscription flex justify-space-between align-item-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+             viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+             class="lucide lucide-indian-rupee"><path d="M6 3h12"/><path d="M6 8h12"/><path d="m6 13 8.5 8"/><path d="M6 13h3"/><path 
+             d="M9 13c6.667 0 6.667-10 0-10"/></svg>
+             <div>
+                <h3>manage-Subscription</h3>
+             </div>
+
+             
+        </div>
+        <div class="login flex justify-space-between align-item-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+             class="lucide lucide-user"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+             <div>
+                <h3><a href="#">Sign-Up</a>|<a href="#">Login</a></h3>
+             </div>
+        </div>
+        <div class="menu flex justify-space-between align-item-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"/><line
+                 x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </div>
+    </div>
+   </div>
+   </header>
+   <h1 class="alert alert-primary text-center" role="alert">Let's discover the world of music</h1>
+    <div class="row">
+        <div class="col-8">
+            <div class="row" id="songs">
+
+        </div>
+        <div class="col-4">
+            
+        </div>
+    </div>
+   <section>
+    <div class="hi">
+        <div class="player"><audio src="" controls></audio></div>
+    </div>
+   </section>
+
+    
+</body>
+</html>

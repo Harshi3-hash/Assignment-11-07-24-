@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    height:5vh;
+}
+:root{
+    --main-color:#074925;
+}
+header{
+    color: white; /*content becomes white */
+    background-color: var(--main-color);
+    padding: 4px 6px;
+}
+header .flex{
+    margin: 0 20px;
+}
+
+.flex{
+    display: flex;
+}
+
+header .search-bar input{
+    padding: 0 50px;
+    width: 90%;
+    position: relative;
+}
+header .search-bar .search-icon{
+    position: absolute;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+
+}
+.align-item-center{
+    align-items: center;
+}
+.hi{
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.player audio{
+
+    bottom: 0;
+}
